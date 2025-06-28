@@ -15,13 +15,7 @@ class NoteApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         appBar: AppBar(
-          title: Text(
-            "EEE i-Note",
-            style: TextStyle(
-              fontWeight: FontWeight.w700,
-              fontFamily: "Libertinus",
-            ),
-          ),
+          title: Text("i-Note", style: TextStyle(fontWeight: FontWeight.w100)),
         ),
       ),
     );
